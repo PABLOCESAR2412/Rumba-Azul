@@ -1,0 +1,20 @@
+{
+  "name": "rumba-azul-v1",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.1.4",
+    "@astrojs/vercel": "^8.0.1",
+    "astro": "^5.1.1",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.14"
+  }
+}
