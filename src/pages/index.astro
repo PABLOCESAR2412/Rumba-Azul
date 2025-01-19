@@ -6,6 +6,12 @@ import Historia from '../components/Historia.astro';
 import Integrantes from '../components/Integrantes.astro';
 import Musica from '../components/Musica.astro';
 import Eventos from '../components/Eventos.astro';
+import Galeria from '../components/Galeria.astro';
+import Contacto from '../components/Contacto.astro';
+import Footer from '../components/Footer.astro';
+import Chat from '../components/Chat.astro'
+
+import { ViewTransitions } from 'astro:transitions';
 ---
 
 <Layout {title}="Rumba Azul">
@@ -15,4 +21,9 @@ import Eventos from '../components/Eventos.astro';
 	<Integrantes />
 	<Musica />
 	<Eventos />
+	<Galeria />
+	<Contacto />
+	<Chat />
+	<Footer />
+	<ViewTransitions />
 </Layout>

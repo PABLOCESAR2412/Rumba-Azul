@@ -1,14 +1,26 @@
 --- 
+
 ---
 
-<section id="historia" class="bg-azul-500 dark:bg-azul-950 h-full">
-    <div class="flex flex-col px-5">
-        <div class="text-center font-suse font-semibold text-2xl text-white pt-20">Historia</div>
-        <div class="flex flex-col py-4">
-            <div class="font-suse text-lg text-white leading-9 tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis doloremque laborum cupiditate in corporis aspernatur provident perspiciatis, nulla, odit asperiores nemo ipsam voluptatem quaerat! Quia molestias in exercitationem voluptatum repellendus?</div>
-            <div class="flex items-center justify-center py-5">
-                <img src="Portada.jpg" alt="" class="w-96 rounded-xl border-4">
+<section id="historia" class="bg-azul-500 dark:bg-black h-full relative dark:bg-[radial-gradient(circle_500px_at_90%_200px,#333333,transparent)]">
+    <div class="flex flex-col py-20 px-5 sm:px-10 md:px-12 lg:px-20 xl:px-28 2xl:px-80">
+        <div class="titulo text-center font-suse font-semibold text-2xl lg:text-3xl text-white">Historia</div>
+        <div class="flex flex-col py-8">
+            <div class="font-suse text-lg lg:text-xl text-white leading-9 lg:leading-loose tracking-widest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis doloremque laborum cupiditate in corporis aspernatur provident perspiciatis, nulla, odit asperiores nemo ipsam voluptatem quaerat! Quia molestias in exercitationem voluptatum repellendus?</div>
+            <div class="flex items-center justify-center pt-10">
+                <img src="Portada-1.jpg" alt="Foto_Rumba_Azul" class="w-96 rounded-xl border-4 object-cover">
             </div>
         </div>
     </div>
 </section>
+
+<script is:inline>
+    var slideUp = {
+    distance: '150%',
+    origin: 'bottom',
+    opacity: null
+};
+
+    ScrollReveal().reveal('.titulo', slideUp);
+</script>
+
